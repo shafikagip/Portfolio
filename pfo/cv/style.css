@@ -1,0 +1,124 @@
+/* Mise en page générale */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #1e1e1e; /* Fond sombre */
+    display: flex;
+    justify-content: center;
+    color: #e0e0e0; /* Texte clair */
+}
+
+/* Conteneur principal format A4 */
+.cv-container {
+    width: 210mm;
+    height: 297mm;
+    background: #2c2c2c; /* Gris foncé */
+    padding: 20mm;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+/* En-tête */
+header {
+    text-align: center;
+    background: #007bff;
+    color: white;
+    padding: 20px 0;
+    border-radius: 10px 10px 0 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Mise en page en deux colonnes */
+.cv-content {
+    display: flex;
+    margin-top: 10px;
+}
+
+/* Colonne gauche (sidebar) */
+.sidebar {
+    width: 30%;
+    background: #3a3a3a; /* Gris foncé */
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.sidebar h2 {
+    color: #00aaff; /* Bleu clair */
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 5px 0;
+    color: #e0e0e0;
+}
+
+.sidebar a {
+    color: #00aaff;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+/* Colonne droite (contenu principal) */
+.content {
+    width: 70%;
+    padding: 15px;
+}
+
+.content h2 {
+    color: #00aaff; /* Bleu clair */
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.job, .school, .project {
+    margin-bottom: 15px;
+}
+
+.job h3, .school h3, .project h3 {
+    margin: 0;
+    color: #ffffff;
+}
+
+.job span, .school span {
+    font-size: 0.9em;
+    color: #bbbbbb;
+}
+
+/* Impression en format A4 */
+@media print {
+    body {
+        background: white;
+        color: black;
+    }
+    
+    .cv-container {
+        width: 100%;
+        height: auto;
+        box-shadow: none;
+        padding: 10mm;
+        background: white;
+        color: black;
+    }
+    
+    .sidebar {
+        background: #e0e0e0;
+        color: black;
+    }
+    
+    .sidebar a {
+        color: #007bff;
+    }
+}
