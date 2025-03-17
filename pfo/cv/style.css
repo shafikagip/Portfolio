@@ -64,11 +64,8 @@ header h1 {
 
 .sidebar a {
     color: #00aaff;
-    text-decoration: none;
-}
-
-.sidebar a:hover {
     text-decoration: underline;
+
 }
 
 /* Colonne droite (contenu principal) */
@@ -121,4 +118,22 @@ header h1 {
     .sidebar a {
         color: #007bff;
     }
+}
+.education .school a {
+    color: #00aaff;
+}
+
+.education .school a:hover {
+    color: #0000ff; /* Bleu clair au survol */
+    text-decoration: underline; /* Souligner au survol */
+}
+/* Cibler le lien Info Concept et le mettre en blanc */
+.job a {
+    color: #00aaff;
+}
+
+/* Optionnel : Ajouter un effet au survol */
+.job a:hover {
+    color: #0000ff; /* Bleu clair au survol */
+    text-decoration: underline; /* Souligner au survol */
 }
