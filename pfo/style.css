@@ -115,18 +115,22 @@ nav {
     background: linear-gradient(135deg, #9333ea, #1e3a8a);
 }
 .hire_me {
-    background-image: linear-gradient(to right, #200122 0%, #6f0000 51%, #200122 100%);
+    background-image: linear-gradient(to right, #000000 0%, #6f0000 51%, #200122 100%);
     margin: 10px;
     padding: 15px 45px;
     text-align: center;
     text-transform: uppercase;
     transition: all 0.5s ease;
     background-size: 200% auto;
-    color: white;
+    color: white; /* Cette ligne définit déjà la couleur du texte en blanc */
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
     display: block;
     text-decoration: none; 
+}
+
+.hire_me span {
+    color: white; /* Ajouté pour être certain que le texte soit en blanc */
 }
 
 .hire_me:hover {
@@ -144,6 +148,7 @@ nav {
 .hire_me:active {
     transform: scale(0.98);
 }
+
 
   .btn-grad:hover {
     background-position: right center; 
