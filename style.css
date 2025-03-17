@@ -57,16 +57,27 @@
     transform: scale(1.09);
 }
 
-.bouton {
-    text-decoration: none;
-    display: inline-block;
+.bouton-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+}
+
+.bouton a {
+    text-decoration: none; 
     font-size: 20px;
     font-weight: 700;
     background: #ffffff;
     color: #793c8d;
     padding: 10px 30px;
     border-radius: 30px;
-    margin: 30px 0 10px;
-    box-shadow: 0 4px 30px rgba(0,0,0,0.1); 
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    user-select: none;
+}
 
+.bouton a:hover,
+.bouton a:focus {
+    outline: none; /* Supprime le contour du focus */
+    text-decoration: none;
+    color: #793c8d;
 }
