@@ -186,8 +186,9 @@
         <section class="section contact">
             <h2>Contactez-moi</h2>
             <p>Intéressé par mes services ? Remplissez le formulaire ci-dessous pour me contacter.</p>
-        
-            <form class="contact-form" action="#" method="post">
+            <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="ff5d2085-aa71-4900-abc5-02d5e391614a">
+
                 <input type="text" name="name" placeholder="Votre nom" required>
                 <input type="email" name="email" placeholder="Votre email" required>
                 <textarea name="message" rows="5" placeholder="Votre message" required></textarea>
