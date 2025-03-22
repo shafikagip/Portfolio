@@ -1,0 +1,96 @@
+/* Importation de la police */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Réinitialisation et style global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Mode sombre avec fond dégradé */
+/* Appliquer l'image en background */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('bg3.png') no-repeat center center/cover;
+    color: #e0e0e0;
+}
+
+/* Effet sombre + transparence sur le formulaire */
+footer.container {
+    width: 90%;
+    max-width: 500px;
+    background: rgba(0, 0, 0, 0.7); /* Noir semi-transparent */
+    padding: 30px;
+    border-radius: 12px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+
+/* Style du titre */
+.contact-content h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* Style du paragraphe */
+.contact-content p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+
+/* Champs du formulaire */
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    transition: 0.3s;
+}
+
+/* Effet au focus */
+.input-group input:focus,
+.input-group textarea:focus {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Bouton stylé */
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #ff4757;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Effet au survol */
+button:hover {
+    background: #ff6b81;
+}
+
+/* Icône d'envoi */
+button i {
+    margin-left: 8px;
+}
