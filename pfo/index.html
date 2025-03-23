@@ -179,20 +179,21 @@
     </button>
     <script>
         window.onscroll = function() {
-            var button = document.querySelector(".btn_up");
-            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-                button.classList.add("show");
-            } else {
-                button.classList.remove("show");
-            }
-        };
-    
-        function scrollToTop() {
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            });
-        }
+    var button = document.querySelector(".btn_up");
+    if (window.scrollY > 100) {
+        button.classList.add("show");
+    } else {
+        button.classList.remove("show");
+    }
+};
+
+function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+}
+
     </script>
     
 
