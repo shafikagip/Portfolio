@@ -22,10 +22,10 @@
     color: aliceblue;
     text-align: center;
     padding: 50px 30px;
-    border: 1px solid rgba(255,255,255,0.3);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     background: rgba(255,255,255,0.2);
     border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 30px rgba(24, 135, 150, 0.1);
 }
 
 .carte img {
