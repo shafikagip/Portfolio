@@ -524,4 +524,34 @@ span {
     width: 3px;
     background-color: #fff;
     animation: drawLine 2s ease-out;
+}.competences ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.competences ul li {
+    background-color: #2d3748; /* Fond plus sombre */
+    color: #f7fafc; /* Texte clair */
+    padding: 12px 18px;
+    border-radius: 12px; /* Coins arrondis plus marqués */
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.competences ul li:hover {
+    background-color: #4a5568; /* Fond légèrement plus clair au survol */
+    transform: translateY(-5px); /* Décalage vertical subtile */
+}
+
+.competences ul li::before {
+    content: "→"; /* Flèche comme icône */
+    color: #38b2ac; /* Couleur différente pour l'icône */
+    font-weight: bold;
+    font-size: 20px;
 }
