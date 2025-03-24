@@ -6,6 +6,28 @@ body {
     background-color: #1a1a1a; /* Fond sombre */
     color: #e0e0e0; /* Texte clair */
 }
+
+nav {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.nav-logo {
+    max-width: 100px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
 header {
     background: #222;
     color: #fff;
