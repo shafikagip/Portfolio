@@ -141,7 +141,7 @@ header h1 {
 .footer {
     text-align: center;
     padding: 10px;
-    background: #181818;
+    background: transparent; /* Rendre le fond transparent */
     width: 100%;
     position: fixed;
     bottom: 0;

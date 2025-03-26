@@ -91,19 +91,25 @@
         text-decoration: underline;
     }
     .footer {
-        background: #181818;
+        background: rgba(0, 0, 0, 0.5); /* Transparent */
         color: #e0e0e0;
         text-align: center;
         padding: 10px;
         margin-top: 20px;
+        position: absolute; /* Permet de fixer le footer en bas */
+        bottom: 0; /* Le place en bas de l'écran */
+        width: 100%; /* S'étend sur toute la largeur */
     }
+    
     .footer a {
         margin: 0 10px;
         color: #bb86fc;
     }
-    .social-icons img {
-        width: 24px;
-        height: 24px;
-        margin: 0 5px;
-        vertical-align: middle;
+    
+    .social-icons a {
+        font-size: 24px;
+        margin: 0 10px;
+        color: #bb86fc;
+        text-decoration: none;
     }
+    

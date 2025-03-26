@@ -562,7 +562,7 @@ span {
 }
 
 .footer {
-    background: #181818;
+    background: transparent; /* Rendre le fond transparent */
     color: #e0e0e0;
     text-align: center;
     padding: 10px;
