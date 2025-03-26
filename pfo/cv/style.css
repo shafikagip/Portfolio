@@ -137,3 +137,19 @@ header h1 {
     color: #0000ff; /* Bleu clair au survol */
     text-decoration: underline; /* Souligner au survol */
 }
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background: #000000;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+    vertical-align: middle;
+}

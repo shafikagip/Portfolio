@@ -83,3 +83,27 @@
     text-decoration: none;
     color: #793c8d;
 }
+    a {
+        color: #bb86fc;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    .footer {
+        background: #181818;
+        color: #e0e0e0;
+        text-align: center;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .footer a {
+        margin: 0 10px;
+        color: #bb86fc;
+    }
+    .social-icons img {
+        width: 24px;
+        height: 24px;
+        margin: 0 5px;
+        vertical-align: middle;
+    }
