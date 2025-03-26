@@ -34,11 +34,23 @@ header{
     color: #fb911f;
 }
 
-
 .return-link {
     position: absolute;
     top: 10px;
     left: 10px;
+    font-size: 1rem; /* Taille de texte plus discrète */
+    color: #e0e0e0; /* Couleur claire pour le texte */
+    text-decoration: none; /* Retirer la décoration de texte */
+    padding: 8px 12px; /* Espacement léger */
+    background-color: transparent; /* Pas de fond */
+    border: 1px solid #e0e0e0; /* Bordure discrète de la même couleur que le texte */
+    border-radius: 5px; /* Coins arrondis */
+    transition: color 0.3s ease, border-color 0.3s ease; /* Transition douce pour la couleur */
+}
+
+.return-link:hover {
+    color: #00aaff; /* Changer la couleur du texte au survol */
+    border-color: #00aaff; /* Changer la couleur de la bordure au survol */
 }
 
 .navbar{
