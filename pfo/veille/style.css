@@ -3,7 +3,8 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #1a1a1a; /* Fond sombre */
+    
+    background-color: #181818; /* Fond sombre */
     color: #e0e0e0; /* Texte clair */
 }
 

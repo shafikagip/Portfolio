@@ -3,7 +3,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background: #1e1e1e; /* Fond sombre */
+    background: #181818; /* Fond sombre */
     display: flex;
     justify-content: center;
     color: #e0e0e0; /* Texte clair */
@@ -141,7 +141,7 @@ header h1 {
 .footer {
     text-align: center;
     padding: 10px;
-    background: #000000;
+    background: #181818;
     width: 100%;
     position: fixed;
     bottom: 0;
