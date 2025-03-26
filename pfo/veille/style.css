@@ -28,14 +28,28 @@ nav {
     align-items: center;
     gap: 3rem;
 }
-
 header {
-    background: #222;
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
+
+.return-link {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
 main {
     max-width: 900px;
     margin: 20px auto;

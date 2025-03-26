@@ -6,7 +6,6 @@
     font-family: 'poppins', sans-serif;
     scroll-behavior: smooth;
 }
-
 p{
     font-weight: 300;
     color: #111;
@@ -33,6 +32,13 @@ header{
 }
 .logo span{
     color: #fb911f;
+}
+
+
+.return-link {
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
 
 .navbar{
