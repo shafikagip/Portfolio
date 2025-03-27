@@ -146,10 +146,16 @@ header h1 {
     position: fixed;
     bottom: 0;
     left: 0;
+}    
+.social-icons a {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #bb86fc;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
 }
-.social-icons img {
-    width: 24px;
-    height: 24px;
-    margin: 0 5px;
-    vertical-align: middle;
+
+.social-icons a:hover {
+    color: #ffffff;
+    transform: scale(1.2);
 }

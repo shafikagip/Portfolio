@@ -35,22 +35,44 @@
     border-color: #00aaff; /* Changer la couleur de la bordure au survol */
 }
 
-
-    .footer {
+.footer {
+    background: transparent;
+    color: #e0e0e0;
     text-align: center;
     padding: 10px;
-    background: transparent; /* Rendre le fond transparent */
+    margin-top: auto; /* Permet au footer de rester en bas si peu de contenu */
     width: 100%;
-    position: fixed;
-    bottom: 0;
-    left: 0;
 }
-    .social-icons img {
-        width: 24px;
-        height: 24px;
-        margin: 0 5px;
-        vertical-align: middle;
-    }
+
+.footer a {
+    margin: 0 10px;
+    color: #bb86fc;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer a:hover {
+    color: #ffffff;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #bb86fc;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    color: #ffffff;
+    transform: scale(1.2);
+}
 </style>
 </head>
 <body class="text-gray-200" style="background: #181818;"> <!-- Fond sombre -->
@@ -123,14 +145,16 @@
  
     </section>
   </main>
-
-</body>
   <div class="footer">
-    <p>&copy; 2025 Shafik Agip - <a href="https://www.shafikagip.fr/pfo/lien/mention%20legal.html" target="_blank">Mention légale</a></p>
+    <p>&copy; 2025 Shafik Agip - <a href="lien/mention legal.html" target="_blank">Mention légale</a></p>
     <div class="social-icons">
         <a href="https://www.instagram.com/agip1134/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
         <a href="https://twitter.com/AgipShafik" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
         <a href="https://www.linkedin.com/in/agip-shafik-593502270/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
     </div>
+    
+</div>
+</body>
+
     
 </html>
