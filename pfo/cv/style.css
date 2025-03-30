@@ -138,24 +138,27 @@ header h1 {
     text-decoration: underline; /* Souligner au survol */
 }
 
+
+/* 
 .footer {
-    text-align: center;
-    padding: 10px;
-    background: transparent; /* Rendre le fond transparent */
-    width: 100%;
-    position: fixed;
+    text-align: center; /* Centrer le contenu 
+    padding: 10px; /* Ajouter un espace autour du contenu 
+    background: transparent; /* Rendre le fond transparent 
+    width: 100%; /* Occuper toute la largeur 
+    position: absolute; /* Fixer le footer en bas 
     bottom: 0;
     left: 0;
 }    
+
 .social-icons a {
-    font-size: 24px;
-    margin: 0 10px;
-    color: #bb86fc;
-    text-decoration: none;
-    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+    font-size: 24px; /* Taille des icônes 
+    margin: 0 10px; /* Espacement entre les icônes 
+    color: #bb86fc; /* Couleur des icônes
+    text-decoration: none; /* Supprimer le soulignement
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out; /* Effet de transition fluide 
 }
 
 .social-icons a:hover {
-    color: #ffffff;
-    transform: scale(1.2);
-}
+    color: #ffffff; /* Changer la couleur au survol
+    transform: scale(1.2); /* Agrandir légèrement l'icône 
+}*/
