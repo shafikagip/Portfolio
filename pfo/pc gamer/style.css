@@ -98,9 +98,18 @@ header .navbar li a:hover{
 .banniere .contenu{
     max-width: 70%;
     text-align: center;
+    background: rgba(255, 255, 255, 0.2); /* Fond semi-transparent */
+    backdrop-filter: blur(19px); /* Effet de flou */
+    padding: 9px;
+    border-radius: 30px; /* Bords arrondis */
+    width: fit-content;
 }
+
+
+
+
 .banniere .contenu h2{
-    color: #fff;
+    color: #ffdede;
     font-size: 3em;
     text-transform: capitalize;
 }
