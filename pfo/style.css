@@ -448,20 +448,10 @@ span {
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
-.btn_up img {
-    width: 30px;
-    height: 30px;
-    transition: transform 0.3s ease;
-}
-
 .btn_up.show {
     display: block;
     opacity: 1;
     transform: translateY(0);
-}
-
-.btn_up:hover img {
-    transform: scale(1.2); 
 }
 .timeline {
     position: relative;
@@ -578,4 +568,78 @@ span {
     color: #bb86fc;
     text-decoration: none;
 }
-    
+/* Contact*/
+
+footer.container {
+    width: 90%;
+    max-width: 500px;
+    background: rgba(0, 0, 0, 0.7); /* Noir semi-transparent */
+    padding: 30px;
+    border-radius: 12px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    margin: auto;
+}
+
+/* Style du titre */
+.contact-content h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+/* Style du paragraphe */
+.contact-content p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    opacity: 0.8;
+    color: #ccc;
+}
+
+/* Champs du formulaire */
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    transition: 0.3s;
+}
+
+/* Effet au focus */
+.input-group input:focus,
+.input-group textarea:focus {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #1d4ed8;
+}
+
+/* Bouton stylé */
+.Envoyer {
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.Envoyer:hover {
+    background-color: #004080;
+    transform: scale(1.05);
+}
+
+.Envoyer:active {
+    background-color: #003366;
+}
