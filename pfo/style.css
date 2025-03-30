@@ -340,7 +340,7 @@ section .header {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: rem 1rem;
+    padding: 1rem 1rem;
     background-color: #27272a;
     border: 2px solid transparent;
     border-radius: 15px;
