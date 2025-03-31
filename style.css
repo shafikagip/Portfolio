@@ -34,17 +34,21 @@
 }
 
 .carte h2 {
-    font-size: 50px;
-    font-weight: 600;
+    font-size: 55px;
+    font-weight: 700;
     margin-top: 20px;
     color: #000000;
+    font-weight: bold;
 }
 
+
 .carte p {
-    font-size: 20px;
+    font-size: 25px;
     margin: 10px auto;
     max-width: 330px;
-    color: #ffffff;
+    color: #ffebeb;
+    font-weight: bold; /* Rend le texte plus épais */
+
 }
 
 .carte .reseau img {
@@ -72,7 +76,7 @@
     background: #ffffff;
     color: #793c8d;
     padding: 10px 30px;
-    border-radius: 30px;
+    border-radius: 10px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     user-select: none;
 }
