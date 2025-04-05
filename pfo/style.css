@@ -645,3 +645,22 @@ footer.container {
 .Envoyer:active {
     background-color: #003366;
 }
+/* Groupe de la case à cocher */
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    color: #ccc;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 10px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.checkbox-group input[type="checkbox"] {
+    accent-color: #1d4ed8; /* couleur de la coche */
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}

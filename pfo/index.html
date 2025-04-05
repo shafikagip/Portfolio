@@ -225,36 +225,41 @@
             </div>
             </section>
 
-
-
             <section class="container">
                 <footer id="contact" class="container">
-                <div class="contact-content">
-                    <h2>Contactez-moi</h2>
-                    <p>Intéressé par mes services ? Remplissez le formulaire ci-dessous.</p>
-                    <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
-                        <input type="hidden" name="access_key" value="ff5d2085-aa71-4900-abc5-02d5e391614a">
-                        
-                        <div class="input-group">
-                            <input type="text" name="name" placeholder="Votre nom" required>
-                        </div>
-        
-                        <div class="input-group">
-                            <input type="email" name="email" placeholder="Votre email" required>
-                        </div>
-        
-                        <div class="input-group">
-                            <textarea name="message" rows="5" placeholder="Votre message" required></textarea>
-                        </div>
-        
-                        <button class="Envoyer" type="submit" aria-label="Envoyer le formulaire">
-                            Envoyer <i class="ri-send-plane-2-fill"></i>
-                        </button>
-                    </form>
-                     </div>
+                    <div class="contact-content">
+                        <h2>Contactez-moi</h2>
+                        <p>Intéressé par mes services ? Remplissez le formulaire ci-dessous.</p>
+                        <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                            <input type="hidden" name="access_key" value="ff5d2085-aa71-4900-abc5-02d5e391614a">
+                            
+                            <div class="input-group">
+                                <input type="text" name="name" placeholder="Votre nom" required>
+                            </div>
+            
+                            <div class="input-group">
+                                <input type="email" name="email" placeholder="Votre email" required>
+                            </div>
+            
+                            <div class="input-group">
+                                <textarea name="message" rows="5" placeholder="Votre message" required></textarea>
+                            </div>
+            
+                            <div class="input-group checkbox-group">
+                                <label>
+                                    <input type="checkbox" name="consentement" required>
+                                    J'accepte que mes données soient utilisées pour me contacter.
+                                </label>
+                            </div>
+            
+                            <button class="Envoyer" type="submit" aria-label="Envoyer le formulaire">
+                                Envoyer <i class="ri-send-plane-2-fill"></i>
+                            </button>
+                        </form>
+                    </div>
                 </footer>
+            </section>
 
-        </section>
 
 
         <button class="btn_up" onclick="scrollToTop()">
