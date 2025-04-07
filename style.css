@@ -103,7 +103,7 @@
         position: absolute; 
         bottom: 0;
         width: 100%; 
-        font-size: 21px; 
+        font-size: 18px; 
         font-weight: bold; 
 
     }
@@ -111,7 +111,7 @@
     .footer a {
         margin:  10px;
         color: #bb86fc;
-        font-size: 21px; 
+        font-size: 18px; 
         font-weight: bold; 
 
     }

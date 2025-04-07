@@ -113,10 +113,14 @@ section {
         text-align: center;
         padding: 10px;
         margin-top: 20px;
+        font-size: 18px; 
+        font-weight: bold; 
     }
     .footer a {
         margin: 0 10px;
         color: #bb86fc;
+        font-size: 18px; 
+        font-weight: bold; 
     }
     .social-icons a {
         font-size: 24px;
