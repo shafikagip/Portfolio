@@ -95,19 +95,25 @@
         text-decoration: underline;
     }
     .footer {
-        background: rgba(0, 0, 0, 0.5); /* Transparent */
+        background: rgba(0, 0, 0, 0.5);
         color: #e0e0e0;
         text-align: center;
         padding: 5px;
         margin-top: 20px;
-        position: absolute; /* Permet de fixer le footer en bas */
-        bottom: 0; /* Le place en bas de l'écran */
-        width: 100%; /* S'étend sur toute la largeur */
+        position: absolute; 
+        bottom: 0;
+        width: 100%; 
+        font-size: 21px; 
+        font-weight: bold; 
+
     }
     
     .footer a {
         margin:  10px;
         color: #bb86fc;
+        font-size: 21px; 
+        font-weight: bold; 
+
     }
     
     .social-icons a {
