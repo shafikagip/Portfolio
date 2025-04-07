@@ -259,21 +259,19 @@
                             </div>
             
                             <div class="input-group checkbox-group">
-                                <label>
-                                    <input type="checkbox" name="consentement" required>
+                                <input type="checkbox" id="consentement" name="consentement" required>
+                                <label for="consentement">
                                     J'accepte que mes données soient utilisées pour me contacter.
                                 </label>
                             </div>
-            
+                            <input type="hidden" name="redirect" value="https://www.shafikagip.fr/pfo/index.html"> <!-- Ajout recommandé -->
                             <button class="Envoyer" type="submit" aria-label="Envoyer le formulaire">
                                 Envoyer <i class="ri-send-plane-2-fill"></i>
                             </button>
                         </form>
                     </div>
                 </footer>
-            </section>
-
-
+          </section>
 
         <button class="btn_up" onclick="scrollToTop()">
             &#x2B9D;  <!-- Symbole Unicode -->
