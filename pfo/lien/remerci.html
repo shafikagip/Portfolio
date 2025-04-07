@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Merci pour votre message</title>
+    <title>Merci pour ton message</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             line-height: 1.6;
             margin: 0;
             padding: 0;
@@ -14,43 +14,71 @@
             justify-content: center;
             align-items: center;
             min-height: 100vh;
-            background-color: #f5f5f5;
+            background-color: #0a0a0a;
+            background-image: radial-gradient(circle at 15% 50%, #1a1a1a 0%, #0a0a0a 100%);
         }
         .container {
-            background-color: white;
-            padding: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            background-color: #1a1a1a;
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
             text-align: center;
             max-width: 600px;
+            border: 1px solid #333;
+            color: #f0f0f0;
         }
         h1 {
-            color: #2c3e50;
+            color: #7cb9ff;
+            margin-top: 0;
+            font-size: 2.2rem;
+            margin-bottom: 1.5rem;
         }
         p {
-            margin-bottom: 1.5rem;
-            color: #34495e;
+            margin-bottom: 1.8rem;
+            color: #d0d0d0;
+            font-size: 1.1rem;
+        }
+        a {
+            color: #7cb9ff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #a8d0ff;
+            text-decoration: underline;
         }
         .btn {
             display: inline-block;
-            background-color: #3498db;
+            background: linear-gradient(135deg, #3a7bd5, #00d2ff);
             color: white;
-            padding: 0.5rem 1rem;
+            padding: 0.7rem 1.5rem;
             text-decoration: none;
-            border-radius: 4px;
-            transition: background-color 0.3s;
+            border-radius: 30px;
+            transition: all 0.3s ease;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            margin-top: 1rem;
+            box-shadow: 0 4px 15px rgba(58, 123, 213, 0.3);
+            border: none;
         }
         .btn:hover {
-            background-color: #2980b9;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(58, 123, 213, 0.4);
+            text-decoration: none;
+        }
+        .signature {
+            margin-top: 2rem;
+            font-style: italic;
+            color: #aaa;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Merci de nous avoir contactés !</h1>
-        <p>Nous avons bien reçu votre message et nous vous répondrons dans les plus brefs délais.</p>
-        <p>En attendant, vous pouvez consulter notre <a href="#">site web</a> pour plus d'informations.</p>
-        <a href="https://www.shafikagip.fr/pfo/index.html" class="btn">Retour à l'accueil</a>
+        <h1>Merci pour votre message !</h1>
+        <p>Je viens de recevoir votre message et je vous répondrai dès que possible.</p>
+        <a href="https://www.shafikagip.fr/pfo/index.html" class="btn">Retour à mon site</a>
+        <p class="signature">A très vite,<br>Shafika</p>
     </div>
 </body>
 </html>
