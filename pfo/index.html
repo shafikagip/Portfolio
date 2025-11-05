@@ -27,6 +27,23 @@
         <a href="#contact" class="hire_me">
             <span>Contactez-moi</span></a>
     </nav>
+    <script>
+    // Scroll fluide pour les liens de navigation
+    document.querySelectorAll('.nav-links a, .hire_me').forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault(); // Empêche le comportement par défaut du lien
+            const targetId = this.getAttribute('href');
+            const targetElement = document.querySelector(targetId);
+
+            if (targetElement) {
+                targetElement.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+</script>
+
 
     <header class="container">
         <div class="content">
@@ -70,11 +87,25 @@
             <div id="Parcours"></div>
             <h2 class="header">Mon Parcours</h2>
             <p class="sub-header">Voici mon parcours académique et professionnel en un coup d'œil :</p>
+
             <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h4>2020 - 2023 : Baccalauréat professionnel microtechnique </h4>
+                        <p>Le Baccalauréat professionnel en microtechnique prépare aux métiers de la conception et de la fabrication de composants électroniques et mécaniques de haute précision. Diplômé avec mention du Lycée Lucien-René Duchesne.</p>
+                    </div>
+                </div>
                 <div class="timeline-item">
                     <div class="timeline-content">
                         <h4>2023 - 2025 : BTS SIO – Option SLAM</h4>
                         <p>Actuellement étudiant en BTS SIO option SLAM au lycée polyvalent de L'Hautil, je me spécialise dans la programmation et la gestion des systèmes d'information.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon"></div>
+                    <div class="timeline-content">
+                        <h4>Mai. - Juin. 2024 : Stage chez Huch.tech</h4>
+                        <p>Stage en développement web chez Huch.tech, Cergy. Rédaction d'un cahier des charges pour un dashboard, analyse des besoins fonctionnels et techniques. Conception et développement d'un site web (HTML, CSS, JavaScript). Collaboration avec les équipes pour définir les fonctionnalités clés et optimisation de l'expérience utilisateur et du design.</p>
                     </div>
                 </div>
                 <div class="timeline-item">
@@ -85,21 +116,10 @@
                     </div>
                 </div>
 
-                <div class="timeline-item">
-                    <div class="timeline-icon"></div>
-                    <div class="timeline-content">
-                        <h4>Mai. - Juin. 2024 : Stage chez Huch.tech</h4>
-                        <p>Stage en développement web chez Huch.tech, Cergy. Rédaction d'un cahier des charges pour un dashboard, analyse des besoins fonctionnels et techniques. Conception et développement d'un site web (HTML, CSS, JavaScript). Collaboration avec les équipes pour définir les fonctionnalités clés et optimisation de l'expérience utilisateur et du design.</p>
-                    </div>
-                </div>
+
                 
 
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <h4>2020 - 2023 : Baccalauréat professionnel microtechnique </h4>
-                        <p>Le Baccalauréat professionnel en microtechnique prépare aux métiers de la conception et de la fabrication de composants électroniques et mécaniques de haute précision. Diplômé avec mention du Lycée Lucien-René Duchesne.</p>
-                    </div>
-                </div>
+
             </div>
         </section>
         
@@ -111,8 +131,8 @@
                 <li>💻 <strong>Développement Web</strong> : HTML, CSS, JavaScript, PHP</li>
                 <li>🖥 <strong>Back-end</strong> : Java, SQL, PHP</li>
                 <li>🗄 <strong>Base de données</strong> : MySQL</li>
-                <li>🛠 <strong>Outils et environnements</strong> : Git</li>
                 <li>🚀 <strong>Gestion de projet</strong> : Agile, Scrum</li>
+                <li>🛠 <strong>Outils et environnements</strong> : Git, VS code, Intellij</li>
             </ul>
             
             </ul>
@@ -131,15 +151,8 @@
                 </div>
                 <div class="Voir">
                     <a href="lien/capgemini Agip Shafik _ Alex Tresfield.pdf" target="_blank">Voir</a>
-                </div>                   
-                <div class="content">
-                    <h4>Notion de licences</h4>
-                </div>
-                <div class="Voir">
-                    <a href="lien/alex_agip_AP_licences_logicielles.pdf" target="_blank">Voir</a>
-                </div>   
+                </div>                    
             </div>
-    
             <div class="card">
                 <div class="content">
                     <h4>FicheMetier</h4>
@@ -150,10 +163,10 @@
             </div>
             <div class="card">
                 <div class="content">
-                    <h4>Covoiturage</h4>
+                    <h4>Notion de licences</h4>
                 </div>
                 <div class="Voir">
-                    <a href="#" target="_blank">Voir</a>
+                    <a href="lien/alex_agip_AP_licences_logicielles.pdf" target="_blank">Voir</a>
                 </div>
             </div>
         
@@ -225,37 +238,41 @@
             </div>
             </section>
 
-
-
             <section class="container">
                 <footer id="contact" class="container">
-                <div class="contact-content">
-                    <h2>Contactez-moi</h2>
-                    <p>Intéressé par mes services ? Remplissez le formulaire ci-dessous.</p>
-                    <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
-                        <input type="hidden" name="access_key" value="ff5d2085-aa71-4900-abc5-02d5e391614a">
-                        
-                        <div class="input-group">
-                            <input type="text" name="name" placeholder="Votre nom" required>
-                        </div>
-        
-                        <div class="input-group">
-                            <input type="email" name="email" placeholder="Votre email" required>
-                        </div>
-        
-                        <div class="input-group">
-                            <textarea name="message" rows="5" placeholder="Votre message" required></textarea>
-                        </div>
-        
-                        <button class="Envoyer" type="submit" aria-label="Envoyer le formulaire">
-                            Envoyer <i class="ri-send-plane-2-fill"></i>
-                        </button>
-                    </form>
-                     </div>
+                    <div class="contact-content">
+                        <h2>Contactez-moi</h2>
+                        <p>Intéressé par mes services ? Remplissez le formulaire ci-dessous.</p>
+                        <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                            <input type="hidden" name="access_key" value="ff5d2085-aa71-4900-abc5-02d5e391614a">
+                            
+                            <div class="input-group">
+                                <input type="text" name="name" placeholder="Votre nom" required>
+                            </div>
+                
+                            <div class="input-group">
+                                <input type="email" name="email" placeholder="Votre email" required>
+                            </div>
+                
+                            <div class="input-group">
+                                <textarea name="message" rows="5" placeholder="Votre message" required></textarea>
+                            </div>
+                
+                            <div class="input-group checkbox-group">
+                                <input type="checkbox" id="consentement" name="consentement" required>
+                                <label for="consentement">
+                                    J'accepte que mes données soient utilisées pour me contacter.
+                                </label>
+                            </div>
+                
+                            <button class="Envoyer" type="submit" aria-label="Envoyer le formulaire">
+                                Envoyer <i class="ri-send-plane-2-fill"></i>
+                            </button>
+                            <input type="hidden" name="redirect" value="https://www.shafikagip.fr/pfo/lien/remerci.html">
+                        </form>
+                    </div>
                 </footer>
-
-        </section>
-
+            </section>
 
         <button class="btn_up" onclick="scrollToTop()">
             &#x2B9D;  <!-- Symbole Unicode -->
@@ -297,6 +314,5 @@ function scrollToTop() {
         </a>
     </div>
 </div>
-
 </body>
 </html>

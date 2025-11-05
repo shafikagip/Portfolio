@@ -33,6 +33,8 @@ nav {
 
 .nav-logo {
     max-width: 100px;
+    width: 150px;
+    border-radius: 50%;
 }
 
 .nav-links {
@@ -558,10 +560,14 @@ span {
     text-align: center;
     padding: 10px;
     margin-top: 20px;
+    font-size: 18px; 
+    font-weight: bold; 
 }
     .footer a {
     margin: 0 10px;
     color: #bb86fc;
+    font-size: 18px; 
+    font-weight: bold; 
 }
 .social-icons a {
     font-size: 24px;
@@ -580,7 +586,7 @@ footer.container {
     backdrop-filter: blur(8px);
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
     text-align: center;
-    margin: auto;
+    margin: center;
 }
 
 /* Style du titre */
@@ -597,11 +603,14 @@ footer.container {
     margin-bottom: 20px;
     opacity: 0.8;
     color: #ccc;
+
 }
 
 /* Champs du formulaire */
 .input-group {
     margin-bottom: 15px;
+    margin-left: 45px;
+
 }
 
 .input-group input,
@@ -632,7 +641,8 @@ footer.container {
     padding: 12px 30px;
     font-size: 1.1rem;
     border-radius: 8px;
-    
+    margin-left: 45px;
+
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
@@ -644,4 +654,23 @@ footer.container {
 
 .Envoyer:active {
     background-color: #003366;
+}
+/* Groupe de la case à cocher */
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    color: #ccc;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 10px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.checkbox-group input[type="checkbox"] {
+    accent-color: #1d4ed8; /* couleur de la coche */
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
 }
